@@ -170,11 +170,9 @@
 </div>
 
 <script>
-    // Pasar datos PHP a JavaScript
     window.userRole = '<?= $userRole ?>';
     window.userId = <?= $userId ?>;
     window.userName = '<?= htmlspecialchars($userName) ?>';
 
-    // Pasar entrenadores a JavaScript si es necesario
     window.entrenadores = <?= json_encode($entrenadores) ?>;
 </script>

@@ -167,7 +167,6 @@ main{
     overflow: hidden; /* Oculta cualquier desbordamiento dentro del contenedor */
 }
 
-/* Estilos para el encabezado del calendario (toolbar) */
 .fc .fc-toolbar-title {
     font-size: 1.75em;
     font-weight: 700;
